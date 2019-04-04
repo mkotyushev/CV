@@ -1,0 +1,121 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[purple]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[scale=0.82]{geometry}
+
+\usepackage[unicode]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\firstname{Михаил}
+\familyname{Котюшев}
+\address{}{Москва, Россия}
+\mobile{+7 XXX XXX XX XX}
+\email{XXXXXXXXXX@gmail.com}
+% \homepage{https://lowlevelbits.org}
+% \extrainfo{Software should be beautiful. Both inside and outside.}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\begin{document}
+\maketitle
+
+\section{Образование}
+  \subsection{Университет}
+  \cventry
+    {Сен 2018 - Сейчас}
+    {Компьютерные науки, магистрант}
+    {\newline{}Московский физико-технический институт, Москва}
+    {\newline\url{https://mipt.ru/}}{}
+    {Факультет инноваций и высоких технологий, Кафедра анализа данных}
+  \cventry
+    {Сен 2014 - Июль 2018}
+    {Физическая информатика, бакалавр (ср. балл 4.5)}
+    {\newline{}Новосибирский государственный университет, Новосибирск, Россия}
+    {\newline\url{https://www.nsu.ru/}}{}
+    {Физический факультет, кафедра автоматизации физико-технических исследований}
+  \subsection{Дополнительное образование}
+  \cventry
+    {Сен 2018 - Сейчас}
+    {Студент трека Data Science}
+    {\newline{}Школа анализа данных, Москва, Россия}
+    {}{\newline\url{https://yandexdataschool.ru/}}{}
+
+\section{Опыт работы}
+\subsection{Официальное трудоустройство}
+\cventry
+  {Сен 2017 - Окт 2018}
+  {Лаборант}
+  {\newline{}Лаборатория нелинейной оптики волноводных систем, \newline{}
+  Новосибирский государственный университет, Новосибирск, Россия}
+  {\newline{}\url{https://research.nsu.ru/}}{}
+  {Автоматизация физических экспериментов в области волоконной оптики. Исследования сенсорных приложений волоконных брэгговских решеток.}
+\cventry
+  {Сен 2017 - Окт 2018}
+  {Младший инженер}
+  {\newline{}Femtotech, Novosibirsk, Russia}
+  {\newline{}\url{http://femtotech.ru/}}{}
+  {Разработка ПО для встраиваемых систем в коммерческих проектах.}
+\cventry
+  {Янв 2015 - Сен 2017}
+  {Младший лаборант}
+  {\newline{}Лаборатория волоконной оптики, \newline{}
+  Институт автоматики и элекрометрии СО РАН, Новосибирск, Россия}
+  {\newline{}\url{https://www.iae.nsk.su/}}{}
+  {Автоматизация физических экспериментов в области волоконной оптики.}
+\subsection{Сторонние проекты и стажировки}
+\cventry
+  {Янв 2019 - Сейчас}
+  {Инженер}
+  {\newline{}Xumanless, Москва, Россия}
+  {}{}
+  {Разработка аппаратного обеспечения для технологического стартапа.}
+\cventry
+  {Дек 2017 - Янв 2018}
+  {Стажер-разработчик C++}
+  {\newline{}Инверсия Сенсор, Новосибирск, Россия}
+  {\newline{}\url{https://i-sensor.ru/}}{}
+  {Стажировка-проект. Приложение-обертка для SSH-клиента для удаленной конфигурации linux-сервера.}
+
+\section{Технические навыки}
+\cvline
+  {Языки}{C++ (средний уровень), Python (высокий уровень)}
+\cvline
+  {Навыки}{Программирование микроконтроллеров, схемотехническое проектирование плат, математическая и алгоритмическая подготовка}
+\cvline
+  {Разное}{Linux, git, LaTeX}
+
+\section{Опыт исследований}
+  \subsection{Курсовые работы и дипломный проект}
+  \cventry
+    {Курсовая}
+    {Измерение характеристик волоконных брэгговских решеток с различным перекрытием сердцевины волокна, записанных фемтосекундным излучением}
+    {\newline\url{https://github.com/mkotyushev/CV/blob/master/texts/cw_4_sem.pdf}}{}{}{}
+  \cventry
+    {Курсовая}
+    {Система контроля положения лазерного пучка в схеме записи волоконных брэгговских решеток методом поперечного сканирования сердцевины}
+    {\newline\url{https://github.com/mkotyushev/CV/blob/master/texts/cw_6_sem.pdf}}{}{}{}
+  \cventry
+    {Диплом}
+    {Система сбора и анализа данных для датчика изгибных деформаций на основе многосердцевинного волоконного световода}
+    {\newline\url{https://github.com/mkotyushev/CV/blob/master/texts/diploma_thesis.pdf}}{}{}{}
+  \subsection{Публикации}
+  \cventry
+    {2018}
+    {Femtosecond pulse inscription of FBGs in multicore fibers and their applications}
+    {\newline{}2018 International Conference Laser Optics (ICLO)}
+    {\newline\url{https://doi.org/10.1109/LO.2018.8435450}}
+    {}{}
+
+  \cventry
+    {2017}
+    {Femtosecond core-scanning inscription of tilted fiber Bragg gratings}
+    {\newline{}SPIE - The International Society for Optical Engineering}
+    {\newline\url{https://doi.org/10.1117/12.2307132}}
+    {}{}
+
+\end{document}
